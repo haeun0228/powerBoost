@@ -1,0 +1,44 @@
+POST http://localhost:3000/posts/1/comments
+Content-Type: application/json
+
+{
+  "text": "hello."
+}
+
+### 
+
+POST http://localhost:3000/posts/1/comments
+Content-Type: application/json
+
+{
+  "text": "hello2."
+}
+
+### 
+GET http://localhost:3000/posts/1
+
+###
+
+POST http://localhost:3000/posts/
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "안녕하세용",
+    "description": "ㅎㅎㅎㅎ"
+}
+
+###
+DELETE http://localhost/3002/posts/2
+
+### 
+PATCH http://localhost/3002/posts/2
+Content-Type: application/json
+
+{
+    "title": "안녕하세용",
+    "description": "ㅎㅎㅎㅎ"
+}
